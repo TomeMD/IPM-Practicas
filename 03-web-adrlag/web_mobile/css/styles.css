@@ -1,0 +1,354 @@
+body {
+    font-family: 'Unica One', cursive;
+    background-color: #0E2033;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #2A6F7F;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    padding-top: 1pt;
+    padding: 1pt;
+}
+
+h1 {
+    color: #FEFF9F;
+}
+
+div {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+button {
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    padding: 5pt;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: .8em;
+    border: none;
+    background: #FEFF9F;
+}
+
+section form { 
+    width: auto;
+    height: 30px;
+    text-align: center;
+    padding-top: 20pt;
+}
+
+section form input {
+    background-color: #E8EAD3;
+    font-family: 'Unica One', cursive;
+    text-align: center;
+    border-radius: 6px;
+}
+
+form p {
+    margin: 0%;
+    font-size: 8pt;
+    text-align: center; 
+    color: #E8EAD3;
+}
+
+button#show_all {
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    padding: 5pt;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: .8em;
+    border: none;
+    background: #FEFF9F;
+}
+
+#whitebar{
+    background-color: #FEFF9F;
+    margin-top: 0;
+    padding: 12px;
+    padding-left: 45%;
+}
+
+#filters {
+    background-color: #FEFF9F;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    padding: 6px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.button {
+    color: #78DEC9;
+    padding: 2pt;
+    width: auto;
+    height: auto;
+}
+
+button#ability {
+    border: none;
+    background: none;
+    font-family: 'Unica One', cursive;
+    color: #78DEC9;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+button#pokemon {
+    border: none;
+    background: none;
+    font-family: 'Unica One', cursive;
+    color: #78DEC9;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+button#type {
+    border: none;
+    background: none;
+    font-family: 'Unica One', cursive;
+    color: #78DEC9;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+button#stats {
+    border: none;
+    background: none;
+    font-family: 'Unica One', cursive;
+    color: #78DEC9;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.dropdown {
+    position: static;
+    display: block;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    color: #2A6F7F;
+}
+  
+.dropdown-menu {
+    display: none;
+    position: static;
+    text-align: center;
+    margin-top: 15pt;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+div#buttonshowall {
+    padding-top: 20pt;
+    height: 40pt;
+    text-align: center;
+}
+
+div#image {
+    text-align: center;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20pt;
+}
+
+.responsive-img {
+    border: 2px solid #2A6F7F;
+    border-radius: 10pt;
+    width: 50%;
+}
+
+div#pokemonslist p {
+    text-align: center;
+    color: #78DEC9;
+    margin: 0pt;
+}
+
+div#pokemonslist div {
+    text-align: center;
+}
+
+div#pokemonslist div div {
+    text-align: center;
+}
+
+#top a {
+    background: none;
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    color: #78DEC9;
+    
+}
+
+#end a {
+    background: none;
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    color: #78DEC9;
+}
+
+div#pokemonslist div button {
+    border: 1pt solid #78DEC9;
+    border-radius: 10pt;
+    background: none;
+    font-family: 'Unica One', cursive;
+    color: #78DEC9;
+}
+
+div button#close {
+    border: 1pt solid #78DEC9;
+    border-radius: 10pt;
+    background: none;
+    font-family: 'Unica One', cursive;
+    color: #78DEC9;
+}
+
+dialog {
+    font-family: 'Unica One', cursive;
+    background-color: #2A6F7F;
+    color: #FEFF9F;
+}
+
+div#moreinfo {
+    background-color: #2A6F7F;
+    text-align: center;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+form#fields {
+    padding-left: 15%;
+    padding-right: 18%;
+    text-align: left;
+}
+
+form#fields input {
+    background-color: #E8EAD3;
+    font-family: 'Unica One', cursive;
+    border-radius: 6px;
+    margin: 5pt;
+    width: 100%;
+}
+
+form#fields label {
+    color: #FEFF9F;
+    font-size: 13px;
+    font-family: 'Unica One', cursive;
+    border-radius: 6px;
+    margin: 5pt;
+    width: 100%;
+}
+
+footer#more h1 {
+    font-size: 28px;
+    color: #FEFF9F; 
+}
+
+p#authors {
+    font-size: 13px;
+    color: #0E2033;
+    margin: 8pt;
+}
+
+textarea#message {
+    background-color: #E8EAD3;
+    font-family: 'Unica One', cursive;
+    border-radius: 6px;
+    margin: 5pt;
+    width: 100%;
+}
+
+div#sendfields {
+    text-align: center;
+}
+
+button#send {
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    padding: 5pt;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: .8em;
+    border: none;
+    background: #FEFF9F;
+}
+
+div#social a img {
+    height: 15pt;
+    width: 15pt;
+    padding: 5pt;
+}
+
+nav#top {
+    width: 100%;
+    text-align: center;
+    margin-block-end: 20pt;
+    font-size: 15pt;
+}
+
+nav#end {
+    width: 100%;
+    text-align: center;
+    margin-top: 20pt;
+    font-size: 15pt;
+}
+
+section#show {
+    min-height: calc(100vh - 590px);
+}
+
+/* Numero de filas en funcion del tamaño de la pantalla*/
+
+@media only screen and  (min-width: 700px) {
+    div#pokemonslist {
+        text-align: center;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+}
+
+@media only screen and  (min-width: 1000px) {
+    div#pokemonslist {
+        text-align: center;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 33.3333333% 33.3333333% 33.3333333%;
+        grid-template-rows: auto;
+    }
+}
+
+@media only screen and  (min-width: 1300px) {
+    div#pokemonslist {
+        text-align: center;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: auto;
+    }
+}

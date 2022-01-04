@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PokémonHome</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>PokémonHome</h1>
+    </header>
+    <div id="whitebar"></div>
+    <section> 
+        <div id="filters" role="region" aria-labelledby="filtersheading">
+            <div id="filtersheading" tabindex="0" class="dropdown">Filters
+                <div class="dropdown-menu">
+                    <div class="button">
+                        <button tabindex="0" id="stats" type="button">Stats</button>
+                    </div>
+                    <div class="button">
+                        <button tabindex="0" id="ability" type="button">Ability</button>
+                    </div>
+                    <div class="button">
+                        <button tabindex="0" id="type" type="button">Type</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <form id="pokemoname" role="search">
+            <input list="allnames" id="pokemon" placeholder="     Search">
+            <label for="pokemon"><p>Search by pokémon name.</p></label>
+            <datalist id="allnames"></datalist>   
+        </form>
+    </section>
+
+    <section id="show" aria-live="polite">
+        <div id="buttonshowall">
+            <button id="show_all" type="button">Show Pokémons</button>
+        </div>
+        <div id="pokemonslist"></div>
+    </section>
+    <div id="moreinfo">
+        <footer id="more">
+            <h1>The Pokémon Company</h1>
+            <form id="fields">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="  Ex.: pokemon@udc.es" />
+                <label for="subject">Subject</label>
+                <input id="subject" type="text" placeholder="  Ex.: Missing pokémon" />
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="  Write your message..."></textarea>
+            </form>                
+            <div id="sendfields">
+                <button id="send" type="button">Send</button>
+            </div>
+            <p id="authors">By Tomé Maseda & Adrián Lage</p>
+
+        </footer>
+        <div id="social">
+            <a href="https://www.instagram.com/pokemon/?hl=es"><img id="instagram" src="img/instagram.png" alt="Logo Instagram"/></a>
+            <a href="https://es-es.facebook.com/Pokemon" ><img id="facebook" src="img/facebook.png" alt="Logo Facebook"/></a>
+            <a href="https://twitter.com/pokemon?lang=es" ><img id="twitter" src="img/twitter.png" alt="Logo Twitter"/></a>
+        </div> 
+    </div>
+
+    <script src="pokemons.js"></script>
+
+</body>

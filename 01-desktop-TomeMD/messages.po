@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-27 22:44+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: controller.py:97
+msgid "ascending"
+msgstr ""
+
+#: controller.py:101
+msgid "descending"
+msgstr ""
+
+#: view.py:24
+msgid "Musical Searcher"
+msgstr ""
+
+#: view.py:32
+msgid "Select an interval"
+msgstr ""
+
+#: view.py:36
+msgid "Select interval type"
+msgstr ""
+
+#: view.py:100
+msgid "Search"
+msgstr ""
+
+#: view.py:104
+msgid "Chosen interval:"
+msgstr ""
+
+#: view.py:106
+msgid "Chosen interval type:"
+msgstr ""
+
+#: view.py:168
+msgid "Invalid arguments"
+msgstr ""
+
+#: view.py:168
+msgid "Please select an interval and an interval type"
+msgstr ""
+
+#: view.py:170
+msgid "The server couldn't fulfill the request."
+msgstr ""
+
+#: view.py:186
+msgid "The server has not returned anything"
+msgstr ""
+
+#: view.py:188
+msgid "Musical searcher"
+msgstr ""
+
+#: view.py:210
+msgid "C"
+msgstr ""
+
+#: view.py:210
+msgid "C♯/D♭"
+msgstr ""
+
+#: view.py:210
+msgid "D"
+msgstr ""
+
+#: view.py:210
+msgid "D♯/E♭"
+msgstr ""
+
+#: view.py:210
+msgid "E"
+msgstr ""
+
+#: view.py:210
+msgid "F"
+msgstr ""
+
+#: view.py:210
+msgid "F♯/G♭"
+msgstr ""
+
+#: view.py:210
+msgid "G"
+msgstr ""
+
+#: view.py:210
+msgid "G♯/A♭"
+msgstr ""
+
+#: view.py:210
+msgid "A"
+msgstr ""
+
+#: view.py:210
+msgid "A♯/B♭"
+msgstr ""
+
+#: view.py:210
+msgid "B"
+msgstr ""
+
+#: view.py:264
+msgid "NEW SEARCH"
+msgstr ""
+
+#: view.py:267
+msgid "<b>INTERVAL:</b>     "
+msgstr ""
+
+#: view.py:269
+msgid "<b>Interval type:</b>     "
+msgstr ""
+
+#: view.py:272
+msgid "<b>Example:</b>     "
+msgstr ""
+
+#: view.py:272
+msgid " <big>-</big> "
+msgstr ""
+
+#: view.py:281
+msgid "Title"
+msgstr ""
+
+#: view.py:281
+msgid "URL"
+msgstr ""
+
+#: view.py:281
+msgid "Favourite"
+msgstr ""
